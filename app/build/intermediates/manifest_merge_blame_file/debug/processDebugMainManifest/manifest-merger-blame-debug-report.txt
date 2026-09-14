@@ -1,0 +1,296 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.upiannounce.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+11-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:5:5-70
+11-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:5:22-67
+12    <uses-permission android:name="android.permission.READ_SMS" />
+12-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:6:5-67
+12-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+13-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:7:5-93
+13-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:7:22-90
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:8:5-77
+14-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:8:22-74
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:9:5-81
+15-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:10:5-77
+16-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:10:22-74
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:11:5-68
+17-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:11:22-65
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:12:5-66
+18-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:12:22-63
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:13:5-67
+19-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:13:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:14:5-79
+20-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:14:22-76
+21    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+21-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:15:5-119
+21-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:15:22-74
+22    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+22-->[logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/bb4e675943f9e85a1e403354c9892bdf/transformed/logger-runtime/AndroidManifest.xml:7:5-75
+22-->[logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/bb4e675943f9e85a1e403354c9892bdf/transformed/logger-runtime/AndroidManifest.xml:7:22-72
+23
+24    <queries>
+24-->[logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/bb4e675943f9e85a1e403354c9892bdf/transformed/logger-runtime/AndroidManifest.xml:10:5-12:15
+25        <package android:name="io.github.mohammedbaqernull.logger" />
+25-->[logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/bb4e675943f9e85a1e403354c9892bdf/transformed/logger-runtime/AndroidManifest.xml:11:9-70
+25-->[logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/bb4e675943f9e85a1e403354c9892bdf/transformed/logger-runtime/AndroidManifest.xml:11:18-67
+26    </queries>
+27
+28    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+28-->[androidx.biometric:biometric:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/e8a6098c5e57951dce7774e793108fa5/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
+28-->[androidx.biometric:biometric:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/e8a6098c5e57951dce7774e793108fa5/transformed/biometric-1.1.0/AndroidManifest.xml:24:22-69
+29    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+29-->[androidx.biometric:biometric:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/e8a6098c5e57951dce7774e793108fa5/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
+29-->[androidx.biometric:biometric:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/e8a6098c5e57951dce7774e793108fa5/transformed/biometric-1.1.0/AndroidManifest.xml:27:22-71
+30
+31    <permission
+31-->[androidx.core:core:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/b81aad3281ec22246ef8833e8a587bf7/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+32        android:name="com.upiannounce.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/b81aad3281ec22246ef8833e8a587bf7/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/b81aad3281ec22246ef8833e8a587bf7/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="com.upiannounce.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/b81aad3281ec22246ef8833e8a587bf7/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/b81aad3281ec22246ef8833e8a587bf7/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+36
+37    <application
+37-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:17:5-92:19
+38        android:name="com.upiannounce.app.AnnounceUPIApp"
+38-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:18:9-39
+39        android:allowBackup="true"
+39-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:19:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/b81aad3281ec22246ef8833e8a587bf7/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+41        android:debuggable="true"
+42        android:extractNativeLibs="false"
+43        android:hardwareAccelerated="true"
+43-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:20:9-43
+44        android:icon="@drawable/trial"
+44-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:21:9-39
+45        android:label="@string/app_name"
+45-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:22:9-41
+46        android:roundIcon="@drawable/trial"
+46-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:23:9-44
+47        android:supportsRtl="true"
+47-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:24:9-35
+48        android:theme="@style/Theme.AnnounceUPI" >
+48-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:25:9-49
+49        <provider
+50            android:name="androidx.core.content.FileProvider"
+50-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:27:5-54
+51            android:authorities="com.upiannounce.app.provider"
+51-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:28:5-52
+52            android:exported="false"
+52-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:29:5-29
+53            android:grantUriPermissions="true" >
+53-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:30:5-39
+54            <meta-data
+54-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:31:5-33:46
+55                android:name="android.support.FILE_PROVIDER_PATHS"
+55-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:32:9-59
+56                android:resource="@xml/file_paths" />
+56-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:33:9-43
+57        </provider>
+58
+59        <activity
+59-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:35:9-43:20
+60            android:name="com.upiannounce.app.MainActivity"
+60-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:36:13-41
+61            android:exported="true"
+61-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:37:13-36
+62            android:windowSoftInputMode="adjustResize" >
+62-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:38:13-55
+63            <intent-filter>
+63-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:39:13-42:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:40:17-69
+64-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:40:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:41:17-77
+66-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:41:27-74
+67            </intent-filter>
+68        </activity>
+69        <!-- Add this inside <application>, below MainActivity -->
+70        <activity
+70-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:45:9-49:58
+71            android:name="com.upiannounce.app.PermissionsActivity"
+71-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:46:13-48
+72            android:exported="false"
+72-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:47:13-37
+73            android:parentActivityName="com.upiannounce.app.MainActivity"
+73-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:48:13-55
+74            android:windowSoftInputMode="adjustResize" />
+74-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:49:13-55
+75        <!-- Add this inside <application>, below AppearanceActivity -->
+76        <activity
+76-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:51:9-55:58
+77            android:name="com.upiannounce.app.LanguageActivity"
+77-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:52:13-45
+78            android:exported="false"
+78-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:53:13-37
+79            android:parentActivityName="com.upiannounce.app.MainActivity"
+79-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:54:13-55
+80            android:windowSoftInputMode="adjustResize" />
+80-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:55:13-55
+81        <!-- Add this inside <application>, below PermissionsActivity -->
+82        <activity
+82-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:57:9-61:58
+83            android:name="com.upiannounce.app.AppearanceActivity"
+83-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:58:13-47
+84            android:exported="false"
+84-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:59:13-37
+85            android:parentActivityName="com.upiannounce.app.MainActivity"
+85-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:60:13-55
+86            android:windowSoftInputMode="adjustResize" />
+86-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:61:13-55
+87
+88        <service
+88-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:63:9-71:19
+89            android:name="com.upiannounce.app.PaymentNotificationService"
+89-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:64:13-55
+90            android:exported="true"
+90-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:65:13-36
+91            android:label="AnnounceUPI Listener"
+91-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:66:13-49
+92            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+92-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:67:13-87
+93            <intent-filter>
+93-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:68:13-70:29
+94                <action android:name="android.service.notification.NotificationListenerService" />
+94-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:69:17-99
+94-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:69:25-96
+95            </intent-filter>
+96        </service>
+97
+98        <receiver
+98-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:73:9-80:20
+99            android:name="com.upiannounce.app.SmsReceiver"
+99-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:74:13-40
+100            android:exported="true"
+100-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:75:13-36
+101            android:permission="android.permission.BROADCAST_SMS" >
+101-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:76:13-66
+102            <intent-filter android:priority="999" >
+102-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:77:13-79:29
+102-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:77:28-50
+103                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+103-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:78:17-82
+103-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:78:25-79
+104            </intent-filter>
+105        </receiver>
+106        <receiver
+106-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:82:9-90:20
+107            android:name="com.upiannounce.app.BootReceiver"
+107-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:83:13-41
+108            android:exported="true" >
+108-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:84:13-36
+109            <intent-filter android:priority="999" >
+109-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:85:13-89:29
+109-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:85:28-50
+110                <action android:name="android.intent.action.BOOT_COMPLETED" />
+110-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:86:17-79
+110-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:86:25-76
+111                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+111-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:87:17-82
+111-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:87:25-79
+112
+113                <category android:name="android.intent.category.DEFAULT" />
+113-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:88:17-76
+113-->/storage/emulated/0/AndroidIDEProjects/UPIANNOUNCE/app/src/main/AndroidManifest.xml:88:27-73
+114            </intent-filter>
+115        </receiver>
+116
+117        <provider
+117-->[logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/bb4e675943f9e85a1e403354c9892bdf/transformed/logger-runtime/AndroidManifest.xml:15:9-18:39
+118            android:name="io.github.mohammedbaqernull.logger.logwire.LogWireInitializer"
+118-->[logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/bb4e675943f9e85a1e403354c9892bdf/transformed/logger-runtime/AndroidManifest.xml:16:13-89
+119            android:authorities="com.upiannounce.app.logwire.initializer"
+119-->[logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/bb4e675943f9e85a1e403354c9892bdf/transformed/logger-runtime/AndroidManifest.xml:17:13-71
+120            android:exported="true" />
+120-->[logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/bb4e675943f9e85a1e403354c9892bdf/transformed/logger-runtime/AndroidManifest.xml:18:13-36
+121        <provider
+121-->[androidx.emoji2:emoji2:1.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/1b501ca75b03cb7fec47b971ebb1b3be/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+122            android:name="androidx.startup.InitializationProvider"
+122-->[androidx.emoji2:emoji2:1.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/1b501ca75b03cb7fec47b971ebb1b3be/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+123            android:authorities="com.upiannounce.app.androidx-startup"
+123-->[androidx.emoji2:emoji2:1.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/1b501ca75b03cb7fec47b971ebb1b3be/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+124            android:exported="false" >
+124-->[androidx.emoji2:emoji2:1.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/1b501ca75b03cb7fec47b971ebb1b3be/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+125            <meta-data
+125-->[androidx.emoji2:emoji2:1.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/1b501ca75b03cb7fec47b971ebb1b3be/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+126                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+126-->[androidx.emoji2:emoji2:1.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/1b501ca75b03cb7fec47b971ebb1b3be/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+127                android:value="androidx.startup" />
+127-->[androidx.emoji2:emoji2:1.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/1b501ca75b03cb7fec47b971ebb1b3be/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+128            <meta-data
+128-->[androidx.lifecycle:lifecycle-process:2.7.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/27cc89847d12564660c0264eba991a15/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+129                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+129-->[androidx.lifecycle:lifecycle-process:2.7.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/27cc89847d12564660c0264eba991a15/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+130                android:value="androidx.startup" />
+130-->[androidx.lifecycle:lifecycle-process:2.7.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/27cc89847d12564660c0264eba991a15/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+131            <meta-data
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+132                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+133                android:value="androidx.startup" />
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+134        </provider>
+135
+136        <receiver
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+137            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+138            android:directBootAware="false"
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+139            android:enabled="true"
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+140            android:exported="true"
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+141            android:permission="android.permission.DUMP" >
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+142            <intent-filter>
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+143                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+144            </intent-filter>
+145            <intent-filter>
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+146                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+147            </intent-filter>
+148            <intent-filter>
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+149                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+150            </intent-filter>
+151            <intent-filter>
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+152                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/dc0a2db38357a1b98a6ba3718edc8a7d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+153            </intent-filter>
+154        </receiver>
+155    </application>
+156
+157</manifest>

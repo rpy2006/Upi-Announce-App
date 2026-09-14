@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-mergeDebugResources-33:/layout/fragment_settings.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-main-36:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-mergeDebugResources-33:/layout/layout_t_t_s_manager.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-main-36:/layout/layout_t_t_s_manager.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-mergeDebugResources-33:/layout/item_transaction.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-main-36:/layout/item_transaction.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-mergeDebugResources-33:/layout/fragment_dashboard.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-main-36:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-mergeDebugResources-33:/layout/activity_main.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-mergeDebugResources-33:/layout/activity_language.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-main-36:/layout/activity_language.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-mergeDebugResources-33:/layout/layout_transaction_adapter.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-main-36:/layout/layout_transaction_adapter.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-mergeDebugResources-33:/layout/layout_announce_u_p_i_app.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-main-36:/layout/layout_announce_u_p_i_app.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-mergeDebugResources-33:/layout/layout_boot_receiver.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-main-36:/layout/layout_boot_receiver.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-mergeDebugResources-33:/layout/activity_permissions.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-main-36:/layout/activity_permissions.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-mergeDebugResources-33:/layout/fragment_home.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-main-36:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-mergeDebugResources-33:/layout/activity_appearance.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-main-36:/layout/activity_appearance.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-mergeDebugResources-33:/layout/layout_sms_receiver.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-main-36:/layout/layout_sms_receiver.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-mergeDebugResources-33:/layout/layout_database_helper.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-main-36:/layout/layout_database_helper.xml"
+    },
+    {
+        "merged": "com.upiannounce.app-mergeDebugResources-33:/layout/fragment_settings.xml",
+        "source": "com.upiannounce.app-main-36:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-mergeDebugResources-33:/layout/dialog_changelog.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-main-36:/layout/dialog_changelog.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-mergeDebugResources-33:/layout/layout_transaction_entity.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-main-36:/layout/layout_transaction_entity.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-mergeDebugResources-33:/layout/layout_transaction_repository.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.upiannounce.app-main-36:/layout/layout_transaction_repository.xml"
+    }
+]

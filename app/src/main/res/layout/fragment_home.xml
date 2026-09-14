@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:background="?android:attr/colorBackground"
+     android:fillViewport="true"
+     android:clipToPadding="false">
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:paddingEnd="20dp"
+         android:orientation="vertical"
+         android:paddingBottom="110dp"
+         android:paddingStart="20dp"
+         android:paddingTop="20dp">
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical"
+             android:orientation="horizontal">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:textSize="20sp"
+                 android:textColor="?attr/colorOnSurface"
+                 android:layout_weight="1"
+                 android:text="AnnounceUPI"
+                 android:textStyle="bold" />
+
+            <ImageButton
+                 android:layout_height="40dp"
+                 android:layout_width="40dp"
+                 android:layout_marginEnd="6dp"
+                 android:contentDescription="Notifications"
+                 android:src="@drawable/bell"
+                 android:background="?android:attr/selectableItemBackgroundBorderless"
+                 android:padding="8dp"
+                 app:tint="?attr/colorOnSurface"
+                 android:id="@+id/btn_bell" />
+
+            <ImageButton
+                 android:layout_height="40dp"
+                 android:layout_width="40dp"
+                 android:contentDescription="Settings"
+                 android:src="@drawable/ic_settings_gear"
+                 android:background="?android:attr/selectableItemBackgroundBorderless"
+                 android:padding="8dp"
+                 app:tint="?attr/colorOnSurface"
+                 android:id="@+id/btn_settings" />
+
+        </LinearLayout>
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:textSize="24sp"
+             android:textColor="?attr/colorOnSurface"
+             android:layout_marginTop="18dp"
+             tools:text="Good morning ☕"
+             android:id="@+id/tv_greeting"
+             android:textStyle="bold" />
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:textSize="14sp"
+             android:textColor="?attr/colorOnSurfaceVariant"
+             android:layout_marginTop="4dp"
+             tools:text="You have received 12 payments today."
+             android:id="@+id/tv_greeting_subtitle" />
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:textSize="13sp"
+             android:textColor="?attr/colorOnSurfaceVariant"
+             android:layout_marginTop="22dp"
+             android:text="Total Received" />
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:fontFamily="sans-serif-medium"
+             android:textSize="38sp"
+             android:textColor="?attr/colorOnSurface"
+             android:layout_marginTop="4dp"
+             tools:text="₹18,750"
+             android:id="@+id/tv_total_amount" />
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:paddingEnd="10dp"
+             android:background="@drawable/bg_chip_positive"
+             android:gravity="center_vertical"
+             android:orientation="horizontal"
+             android:paddingBottom="5dp"
+             android:paddingStart="10dp"
+             android:layout_marginTop="10dp"
+             android:id="@+id/delta_container"
+             android:paddingTop="5dp">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:textSize="12sp"
+                 android:textColor="#3DDC84"
+                 tools:text="↑ 18% vs yesterday · 9 payments"
+                 android:id="@+id/tv_delta" />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="42dp"
+             android:layout_width="match_parent"
+             android:background="@drawable/bg_toggle_track"
+             android:padding="3dp"
+             android:orientation="horizontal"
+             android:layout_marginTop="20dp"
+             android:id="@+id/toggle_track">
+
+            <TextView
+                 android:layout_height="match_parent"
+                 android:layout_width="0dp"
+                 android:background="@drawable/bg_toggle_active"
+                 android:gravity="center"
+                 android:textSize="13sp"
+                 android:textColor="?attr/colorOnSurface"
+                 android:layout_weight="1"
+                 android:id="@+id/toggle_today"
+                 android:text="Today"
+                 android:textStyle="bold" />
+
+            <TextView
+                 android:layout_height="match_parent"
+                 android:layout_width="0dp"
+                 android:gravity="center"
+                 android:textSize="13sp"
+                 android:textColor="?attr/colorOnSurfaceVariant"
+                 android:layout_weight="1"
+                 android:id="@+id/toggle_total"
+                 android:text="Total" />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:background="@drawable/bg_card"
+             android:padding="16dp"
+             android:orientation="vertical"
+             android:layout_marginTop="18dp">
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="center_vertical"
+                 android:orientation="horizontal">
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="0dp"
+                     android:textSize="13sp"
+                     android:textColor="?attr/colorOnSurfaceVariant"
+                     tools:text="Peak Hour (Today)"
+                     android:layout_weight="1"
+                     android:id="@+id/tv_peak_hour_title" />
+
+                <View
+                     android:layout_height="6dp"
+                     android:layout_width="6dp"
+                     android:layout_marginEnd="5dp"
+                     android:background="@android:drawable/presence_online"
+                     android:id="@+id/live_dot" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:textSize="12sp"
+                     android:textColor="?attr/colorOnSurfaceVariant"
+                     android:id="@+id/tv_live_label"
+                     android:text="Live" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="56dp"
+                 android:layout_width="match_parent"
+                 android:gravity="bottom"
+                 android:orientation="horizontal"
+                 android:layout_marginTop="14dp"
+                 android:id="@+id/bar_chart_container">
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:orientation="horizontal"
+                 android:layout_marginTop="6dp">
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="0dp"
+                     android:gravity="center"
+                     android:textSize="9.5sp"
+                     android:textColor="?attr/colorOnSurfaceVariant"
+                     android:layout_weight="1"
+                     android:text="12 AM" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="0dp"
+                     android:gravity="center"
+                     android:textSize="9.5sp"
+                     android:textColor="?attr/colorOnSurfaceVariant"
+                     android:layout_weight="1"
+                     android:text="4 AM" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="0dp"
+                     android:gravity="center"
+                     android:textSize="9.5sp"
+                     android:textColor="?attr/colorOnSurfaceVariant"
+                     android:layout_weight="1"
+                     android:text="8 AM" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="0dp"
+                     android:gravity="center"
+                     android:textSize="9.5sp"
+                     android:textColor="?attr/colorOnSurfaceVariant"
+                     android:layout_weight="1"
+                     android:text="12 PM" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="0dp"
+                     android:gravity="center"
+                     android:textSize="9.5sp"
+                     android:textColor="?attr/colorOnSurfaceVariant"
+                     android:layout_weight="1"
+                     android:text="4 PM" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="0dp"
+                     android:gravity="center"
+                     android:textSize="9.5sp"
+                     android:textColor="?attr/colorOnSurfaceVariant"
+                     android:layout_weight="1"
+                     android:text="8 PM" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="0dp"
+                     android:gravity="center"
+                     android:textSize="9.5sp"
+                     android:textColor="?attr/colorOnSurfaceVariant"
+                     android:layout_weight="1"
+                     android:text="11 PM" />
+
+            </LinearLayout>
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="center"
+                 android:textSize="11.5sp"
+                 android:textColor="?attr/colorOnSurfaceVariant"
+                 android:layout_marginTop="10dp"
+                 tools:text="6 PM busiest · 4 payments"
+                 android:id="@+id/tv_peak_hint" />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="48dp"
+             android:layout_width="match_parent"
+             android:paddingEnd="14dp"
+             android:background="@drawable/bg_search_field"
+             android:gravity="center_vertical"
+             android:orientation="horizontal"
+             android:paddingStart="14dp"
+             android:layout_marginTop="18dp">
+
+            <ImageView
+                 android:layout_height="18dp"
+                 android:layout_width="18dp"
+                 android:layout_marginEnd="8dp"
+                 android:contentDescription="Search"
+                 android:src="@android:drawable/ic_menu_search"
+                 app:tint="?attr/colorOnSurfaceVariant" />
+
+            <EditText
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:imeOptions="actionSearch"
+                 android:background="@null"
+                 android:hint="Search by name, app or amount..."
+                 android:textColorHint="?attr/colorOnSurfaceVariant"
+                 android:textSize="14sp"
+                 android:textColor="?attr/colorOnSurface"
+                 android:maxLines="1"
+                 android:layout_weight="1"
+                 android:inputType="text"
+                 android:id="@+id/et_search" />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical"
+             android:orientation="horizontal"
+             android:layout_marginTop="22dp">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:textSize="14.5sp"
+                 android:textColor="?attr/colorOnSurface"
+                 android:layout_weight="1"
+                 android:text="Recent payments"
+                 android:textStyle="bold" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:background="?android:attr/selectableItemBackground"
+                 android:padding="4dp"
+                 android:textSize="13sp"
+                 android:textColor="?attr/colorPrimary"
+                 android:id="@+id/tv_see_all"
+                 android:text="See all" />
+
+        </LinearLayout>
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:visibility="gone"
+             android:gravity="center"
+             android:textSize="13sp"
+             android:textColor="?attr/colorOnSurfaceVariant"
+             android:layout_marginTop="30dp"
+             android:id="@+id/tv_empty"
+             android:text="No payments yet" />
+
+        <androidx.recyclerview.widget.RecyclerView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:nestedScrollingEnabled="false"
+             android:layout_marginTop="10dp"
+             android:id="@+id/rv_transactions"
+             android:overScrollMode="never" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
