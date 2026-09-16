@@ -1,11 +1,6 @@
 <p align="center">
   <img src="https://github.com/rpy2006/Upi-Announce-App/blob/main/assets/file_000000007170820e8291ca19348fb674.png" alt="AnnounceUPI banner" width="100%">
 </p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/rpy2006/Upi-Announce-App/refs/heads/main/assets/trial.png" alt="AnnounceUPI icon" width="96">
-</p>
-
 <h1 align="center">AnnounceUPI</h1>
 
 <p align="center">
