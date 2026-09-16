@@ -76,4 +76,4 @@ This project is provided as-is. Check the repository for license details, or con
 
 ---
 
-<p align="center">Made by Yadav Enterprises</p>
+<p align="center">Made by Rohit Prasad Yadav</p>
