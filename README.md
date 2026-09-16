@@ -1,8 +1,6 @@
 <p align="center">
   <img src="https://github.com/rpy2006/Upi-Announce-App/blob/main/assets/file_000000007170820e8291ca19348fb674.png" alt="AnnounceUPI banner" width="100%">
 </p>
-<h1 align="center">AnnounceUPI</h1>
-
 <p align="center">
   Real-time UPI payment monitoring with instant voice announcements — built for merchants, shopkeepers, and anyone who wants to hear their payments come in.
 </p>
